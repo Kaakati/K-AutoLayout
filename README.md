@@ -7,6 +7,14 @@ An AutoLayout Extension for iOS written in Swift that is very easy to use, I fou
 ### Example
 Add yourView as Subview
 ```swift
+var yourView : UILabel = {
+    let label = UILabel()
+    label.text = "Your UILabel Text"
+    label.textAlignment = .center
+    label.translatesAutoresizingMaskIntoConstraints = false // Don't Forget to add this line.
+    return label
+}()
+
 view.addSubview(yourView)
 ```
 
