@@ -1,7 +1,7 @@
 ## K-AutoLayout
-#### An Autolayout Extension for iOS written in Swift
+#### An Autolayout Extension for iOS written in Swift 3
 
-An AutoLayout Extension for iOS written in Swift that is very easy to use, I found this extension online and I just wanted to document it.
+An AutoLayout Extension for iOS written in Swift 3 that is very easy to use, I found this extension online and I just wanted to document it.
 
 #### HOW TO USE:
 Just copy the `AutoLayout.swift` file to your project.
