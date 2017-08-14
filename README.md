@@ -36,8 +36,8 @@ If you want your view to connect to superview bottom edge set `bottom: view.bott
 
 ##### OR
 
-To add a `childView` below `yourView` set it's top: as `yourView.bottomAnchor` 
+To add a `secondView` below `yourView` set it's top: as `yourView.bottomAnchor` 
 
 ```swift
-childView.anchorWithConstantsToTop(top: yourView.bottomAnchor, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, topConstant: 0, leftConstant: 0, bottomConstant: 0, rightConstant: 0)
+secondView.anchorWithConstantsToTop(top: yourView.bottomAnchor, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, topConstant: 0, leftConstant: 0, bottomConstant: 0, rightConstant: 0)
 ```
